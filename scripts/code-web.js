@@ -8,7 +8,7 @@
 const testWebLocation = require.resolve('@vscode/test-web');
 
 const fs = require('fs');
-const path = require('path');
+const path = require('path'); // this doesn't work
 const cp = require('child_process');
 
 const minimist = require('minimist');
